@@ -8,7 +8,7 @@ SERVER = 'http://localhost:8000'
 # todo: use signingkey.generate() to create signing_key and verify_key
 
 # step 2: choose a keyid for this demo user
-# todo: set keyid = 'student-key-1' or your own unique keyid
+# todo: set keyid = 'mykey' or your own unique keyid
 
 # step 3: encode public key as base64 for safe transport
 # todo: use base64.b64encode and .decode() to produce public_key_b64
