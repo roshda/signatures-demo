@@ -30,7 +30,7 @@ def verify():
     sig_b64   = request.headers.get('Signature')
 
     if not sig_input or not sig_b64:
-        return 'Missing Signature-Input or Signature header', 400
+        return 'missing Signature-Input or signature header', 400
 
     # Extract keyid from Signature-Input
     m = re.search(r'keyid="([^"]+)"', sig_input)
